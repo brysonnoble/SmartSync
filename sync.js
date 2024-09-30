@@ -3,10 +3,6 @@ function PlaySample(file) {
   const audio1 = new Audio('https://brysonnoble.github.io/Programming%20Projects/SmartSync/Sample_Audio/a1.mp3');
   const audio2 = new Audio('https://brysonnoble.github.io/Programming%20Projects/SmartSync/Sample_Audio/a2.mp3');
 
-  audio0.pause();
-  audio1.pause();
-  audio2.pause();
-
   switch (file) {
     case 0:
       audio0.addEventListener('loadedmetadata', () => {
